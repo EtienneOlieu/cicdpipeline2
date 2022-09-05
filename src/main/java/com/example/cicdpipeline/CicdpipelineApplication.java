@@ -10,6 +10,7 @@ public class CicdpipelineApplication {
         SpringApplication.run(CicdpipelineApplication.class, args);
         System.out.println("hello world");
         System.out.println("My pants are super big");
+        System.out.println("Horses smell nice");
     }
 
 }
