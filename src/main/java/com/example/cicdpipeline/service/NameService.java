@@ -24,7 +24,7 @@ public class NameService implements INameService{
 
     @Override
     public Name save(Name object) {
-        return null;
+        return nRep.save(object);
     }
 
     @Override
