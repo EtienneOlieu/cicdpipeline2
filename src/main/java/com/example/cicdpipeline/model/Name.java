@@ -18,8 +18,10 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Long id;
 
+        @Column
         private String f_name;
 
+        @Column
         private String l_name;
 
         public Name(){}
